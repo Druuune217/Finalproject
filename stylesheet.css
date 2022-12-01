@@ -1,0 +1,66 @@
+
+body {
+    max-width: 500px;
+    margin: auto;
+    display: auto;
+}
+
+.header{
+    background-image: url(../Finalproject/images/Japaneselogo.jpg);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+body{
+    background-image: url(../Finalproject/images/Japan\ Shrine.png);
+    background-repeat: repeat;
+    max-width: 946px;
+    margin: auto;
+}
+
+h1{
+  position: relative;
+  color: white;
+}
+
+.upper-menu > ul > li> a {
+    size: 10px;
+    text-decoration: none;
+}
+
+p {
+    font-size: larger;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.prefecture-style {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    padding-left: 10%;
+    margin: auto;
+    text-decoration: none;
+}
+
+.greetings-style {
+    margin: auto;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    text-align: left;
+}
+
+.upper-menu {
+    text-decoration: none;
+    color: black;
+    position: auto;
+    font-size: 20px;
+    float: left;
+    margin: auto;
+}
+
+.info > a {
+    text-align: center;
+}
