@@ -5,45 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home page</title>
     <link href="stylesheet.css" rel="stylesheet">
     <link href="kyoto-stylesheet.css" rel="stylesheet">
     <link href="tokyo-stylesheet.css" rel="stylesheet">
+    <link href="contact.stylesheet.css" rel="stylesheet">
 </head>
-
-<body>
-    <h1 class="greetings-style">Welcome to Japan</h1>
-    <h2 class="greetings-style">日本へようこそ</h2>
-    <header>
-        <img src="images/Japaneselogo.jpg" alt="Japan scenery">
+<div class="home">
+    <div class="navi">
+        <img src="../Finalproject/images/Japan-logo.jpg" class="logo">
         <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                </ul>
-        </nav>
-    </header>
-    <iframe width="1000" height="500" src="https://www.youtube.com/embed/WLIv7HnZ_fE" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    <p class="text"><i>Japan is an archipelago, or string of islands, on the eastern edge of Asia. There are four main
-            islands:
-            Hokkaido, Honshu, Shikoku, and Kyushu. There are also nearly 4,000 smaller islands! Japan's nearest mainland
-            neighbors are the Siberian region of Russia in the north and Korea and China farther south.</i></p></br>
-    <h1>Japan Map</h1>
-    <img src="images/regions_and_prefectures_of_japan_map-522x709.jpg" alt="Japan Map">
-    <nav class="prefecture-style">
-        <h1>
             <ul>
-                <li></li> <a href="tokyo.html" target="_blank">Tokyo</a></li>
-                <li></li> <a href="kyoto.html" target="_blank">Kyoto</a></li>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="" target="_blank">About</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
             </ul>
-        </h1>
-    </nav><br>
-    <h1>Contact Us</h1>
-    <p>Contact Us here for your booking right now!</p>
-    <a class="info" href="">(670)111-2222</a>
-    <a class="info" href="">quizondrone@gmail.com</a>
+        </nav>
+    </div>
+    
+    <div class="row">
+        <div class="col">
+            <h1>Welcome to Japan</h1>
+            <p><i>Japan is an archipelago, or string of islands, on the eastern edge of Asia. There are four main
+                    islands:
+                    Hokkaido, Honshu, Shikoku, and Kyushu. There are also nearly 4,000 smaller islands! Japan's nearest
+                    mainland
+                    neighbors are the Siberian region of Russia in the north and Korea and China farther south.</i></p>
+            <a href="tokyo.html"><button type="button">Tokyo</button></a>
+            <a href="kyoto.html"><button type="button">Kyoto</button></a>
+        </div>
+        <div class="card card1">
+            <div>
+                <h5>Tokyo Night</h5>
+                <p>The Night life begins</p>
+            </div>
+            <div class="card card2">
+                <div>
+                    <h5>Kyoto</h5>
+                    <p>Beautiful Scenery</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</body>
+    <body>
+
+    </body>
 
 </html>
