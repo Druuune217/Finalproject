@@ -1,5 +1,5 @@
 .background{
-    background-image: url(../tokyoimages/Tokyonights.jpg);
+    background-image: url(../Finalproject/tokyoimages/Tokyonightlife.jpeg);
     margin: auto;
     background-size: cover;
     background-attachment: fixed;
@@ -40,7 +40,7 @@ nav > ul > li{
     border-radius: 15px;
 }
 
-.item1{
+.item1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
